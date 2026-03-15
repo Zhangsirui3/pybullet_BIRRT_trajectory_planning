@@ -6,6 +6,8 @@ import math
 import random
 import matplotlib.pyplot as plt
 
+# BIRRT 轨迹规划算法实现，适用于机械臂在复杂环境中的避障路径搜索
+
 # -------------------------- 1. 正确初始化环境 --------------------------
 try:
     physics_client = p.connect(p.GUI)
